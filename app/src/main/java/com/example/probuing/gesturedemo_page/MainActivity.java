@@ -41,12 +41,13 @@ public class MainActivity extends ActionBarActivity implements GestureDetector.O
         animation[1] = AnimationUtils.loadAnimation(this,R.anim.left_out);
         animation[2] = AnimationUtils.loadAnimation(this,R.anim.right_in);
         animation[3] = AnimationUtils.loadAnimation(this,R.anim.right_out);
+
     }
 
     /**
      * 添加组件方法
-     * @param resId
-     * @return
+     * @param resId 资源id
+     * @return ImageView
      */
     private View addImageView(int resId)
     {
